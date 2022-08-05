@@ -1,0 +1,6 @@
+{
+  "short_name": "gozo Quiz",
+  "name": "gozo Quiz",
+  "start_url": ".",
+  "display": "standalone"
+}
