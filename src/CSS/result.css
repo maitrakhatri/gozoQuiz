@@ -1,0 +1,36 @@
+@import url("./question.css");
+
+h1 {
+    margin-top: 2rem;
+}
+
+#result {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#result .result-card {
+    transform: scale(.5);
+}
+
+.options #incorrect {
+    background-color: var(--red);
+    outline: none;
+    color: #ffffff;
+}
+
+.options #correct {
+    background-color: var(--green);
+    outline: none;
+    color: #ffffff;
+}

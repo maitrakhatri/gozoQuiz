@@ -1,0 +1,63 @@
+@import url("./styles.css");
+
+.question-page {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.option {
+    font-size: 2rem;
+    outline: 1px solid #fff;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.selected {
+    outline: 1px solid var(--yellow);
+    color: var(--yellow);
+}
+
+.hoverable:hover {
+    outline: 1px solid var(--yellow);
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.submit {
+    display: flex;
+    width: 100%;
+}
+
+.submit button {
+    font-size: 1.5rem;
+    border-radius: 2rem;
+}
+
+.submit a {
+    margin-left: auto;
+
+}
